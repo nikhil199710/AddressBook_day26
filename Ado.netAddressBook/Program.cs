@@ -30,9 +30,9 @@ namespace AddressBookADO.net
             //UC4
             //addressBookRepo.UpdateContact("nikhil");
             //UC5
-            addressBookRepo.DeleteContact("neha");
+            //addressBookRepo.DeleteContact("neha");
             //UC6
-            //addressBookRepo.GetPersonByCityOrState();
+            addressBookRepo.GetPersonByCityOrState();
             //UC7
             ///Calling the GetSizeByCity method
             //addressBookRepo.GetSizeByCity("kolkata");
