@@ -32,10 +32,10 @@ namespace AddressBookADO.net
             //UC5
             //addressBookRepo.DeleteContact("neha");
             //UC6
-            addressBookRepo.GetPersonByCityOrState();
+            //addressBookRepo.GetPersonByCityOrState();
             //UC7
             ///Calling the GetSizeByCity method
-            //addressBookRepo.GetSizeByCity("kolkata");
+            addressBookRepo.GetSizeByCity("kolkata");
             //UC7-Calling the GetSizeByState method
             //addressBookRepo.GetSizeByState("westBengal");
         }
