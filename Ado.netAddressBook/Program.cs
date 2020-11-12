@@ -12,20 +12,20 @@ namespace AddressBookADO.net
             //UC1
             //addressBookRepo.EnsureDataBaseConnection();
             //UC2
-            addressBookRepo.GetAllEntries();
-
-            //AddressBookModel model = new AddressBookModel();
-            //model.FirstName = "rahul";
-            //model.LastName = "vats";
-            //model.Address = "fatwua";
-            //model.City = "chapra";
-            //model.State = "bihar";
-            //model.Zip = 281051;
-            //model.PhoneNo = 5485200789;
-            //model.Email = "rahul@gmail.com";
-            //model.AddressBookName = "nikhil";
-            //model.ContactType = "Friends";
-            //Console.WriteLine(addressBookRepo.AddContact(model) ? "Record inserted successfully " : "Failed");
+            //addressBookRepo.GetAllEntries();
+            //UC3
+            AddressBookModel model = new AddressBookModel();
+            model.FirstName = "rahul";
+            model.LastName = "vats";
+            model.Address = "fatwua";
+            model.City = "chapra";
+            model.State = "bihar";
+            model.Zip = 281051;
+            model.PhoneNo = 5485200789;
+            model.Email = "rahul@gmail.com";
+            model.AddressBookName = "nikhil";
+            model.ContactType = "Friends";
+            Console.WriteLine(addressBookRepo.AddContact(model) ? "Record inserted successfully " : "Failed");
 
             //UC4
             //addressBookRepo.UpdateContact("nikhil");
