@@ -28,9 +28,9 @@ namespace AddressBookADO.net
             //Console.WriteLine(addressBookRepo.AddContact(model) ? "Record inserted successfully " : "Failed");
 
             //UC4
-            addressBookRepo.UpdateContact("nikhil");
+            //addressBookRepo.UpdateContact("nikhil");
             //UC5
-            //addressBookRepo.DeleteContact("neha");
+            addressBookRepo.DeleteContact("neha");
             //UC6
             //addressBookRepo.GetPersonByCityOrState();
             //UC7
