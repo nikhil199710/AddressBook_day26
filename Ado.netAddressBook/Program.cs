@@ -35,9 +35,9 @@ namespace AddressBookADO.net
             //addressBookRepo.GetPersonByCityOrState();
             //UC7
             ///Calling the GetSizeByCity method
-            addressBookRepo.GetSizeByCity("kolkata");
+            //addressBookRepo.GetSizeByCity("kolkata");
             //UC7-Calling the GetSizeByState method
-            //addressBookRepo.GetSizeByState("westBengal");
+            addressBookRepo.GetSizeByState("westBengal");
         }
     }
 }
