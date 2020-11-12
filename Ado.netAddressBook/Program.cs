@@ -12,7 +12,7 @@ namespace AddressBookADO.net
             //UC1
             //addressBookRepo.EnsureDataBaseConnection();
             //UC2
-            //addressBookRepo.GetAllEntries();
+            addressBookRepo.GetAllEntries();
 
             //AddressBookModel model = new AddressBookModel();
             //model.FirstName = "rahul";
