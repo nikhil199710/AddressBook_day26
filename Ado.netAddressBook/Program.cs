@@ -10,7 +10,7 @@ namespace AddressBookADO.net
             /// Creating an object of AddressBookRepo class
             AddressBookRepo addressBookRepo = new AddressBookRepo();
             //UC1
-            //addressBookRepo.EnsureDataBaseConnection();
+            addressBookRepo.EnsureDataBaseConnection();
             //UC2
             //addressBookRepo.GetAllEntries();
 
