@@ -10,9 +10,9 @@ namespace AddressBookADO.net
             /// Creating an object of AddressBookRepo class
             AddressBookRepo addressBookRepo = new AddressBookRepo();
             //UC1
-            //addressBookRepo.EnsureDataBaseConnection();
+            addressBookRepo.EnsureDataBaseConnection();
             //UC2
-            //addressBookRepo.GetAllEntries();
+            addressBookRepo.GetAllEntries();
             //UC3
             AddressBookModel model = new AddressBookModel();
             model.FirstName = "rahul";
@@ -27,17 +27,7 @@ namespace AddressBookADO.net
             model.ContactType = "Friends";
             Console.WriteLine(addressBookRepo.AddContact(model) ? "Record inserted successfully " : "Failed");
 
-            //UC4
-            //addressBookRepo.UpdateContact("nikhil");
-            //UC5
-            //addressBookRepo.DeleteContact("neha");
-            //UC6
-            //addressBookRepo.GetPersonByCityOrState();
-            //UC7
-            ///Calling the GetSizeByCity method
-            //addressBookRepo.GetSizeByCity("kolkata");
-            //UC7-Calling the GetSizeByState method
-            //addressBookRepo.GetSizeByState("westBengal");
+            
         }
     }
 }
